@@ -133,18 +133,21 @@
 // Agar 400 ga bo'linmasa, lekin 100 ga qoldiqsiz bo'linsa $\rightarrow$ bu Oddiy yil (chunki 100 ga bo'linib, 400 ga bo'linmaydigan yillar, masalan 1900 yoki 2100, kabisa emas)
 // .Agar yuqoridagilarning hech biri bo'lmasa, lekin 4 ga qoldiqsiz bo'linsa $\rightarrow$ bu Kabisa.Qolgan barcha holatlarda $\rightarrow$ Oddiy yil.
 //let yil = +prompt("yil kiriting");
-//if (yil % 400 === 0) { console.log("bu kabisa yili");}
+//if (yil % 400 === 0) {console.log("bu kabisa yili");} 
 // else if (yil % 100 === 0) {console.log("bu oddiy yil");}
-// else if (yil % 4 === 0) { console.log("bu kabisa yili");}
-// else {console.log("bu oddiy yil");}
+ //else if (yil % 4 === 0) {console.log("bu kabisa yili");}
+ //else {console.log("bu oddiy yil");}
 //===============================================
 // 6-masala  foydalanuvchi 2ta son kiritadi ulardan eng kichigini qaytaruvchi dastur yozing bunda Math dan foydalanmang  bunda || && operatorlaridan foydalaning
-let son1 = +prompt("1-sonni kiriting");
-let son2 = +prompt("2-sonni kiriting");
-son1 < son2 ? console.log(son1) : console.log(son2);
+//let son1 = +prompt("1-sonni kiriting");
+//let son2 = +prompt("2-sonni kiriting");
+//son1 < son2 ? console.log(son1) : console.log(son2);
 
 //===============================================
 
 // 7-savol let const var kalit sozlarini bir birdan farqini yozib qoldiring
-
+//letga ozgaruvchan qiymat beriladi
+//constga ozgarmaydigan qiymatlar beriladi
+//var eski usul ozgaruvchidan oldin chaqirsa ham keladi ikki marta ozgartirsa ham xato bermaydi 
+// if else va gulli {} qavslar tashqarisida ham ishlaydi const va let ishlamaydi
 //===============================================
