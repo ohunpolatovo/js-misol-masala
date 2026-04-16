@@ -4,11 +4,23 @@
 // else {console.log("toq son");}
 //===============================================
 // 2-masala foydalanuvchidan 3-xonalik son oling ular ichida eng kattasi qaysi honada ekanligi aniqlovchi dastur yozing va consolega chiqaring
+//let son = +prompt("3-xonalik son kirirting");
+//let yuzlar = Math.trunc(son / 100);
+//let onliklar = Math.trunc((son / 10) % 10);
+//let birliklar = son % 10;
+//if (yuzlar > onliklar && yuzlar > birliklar) {console.log(" eng katta son yuzliklar honasida");}
+//else if (onliklar > yuzlar && onliklar > birliklar) {console.log(" eng katta son onliklar honasida ");}
+//else console.log(" eng katta son birliklar honasida");
 //===============================================
 //3-maslaa sonning ishorasini aniqlovchi dastur yozing bunda console.log musbat manfiy yoki nol degan stringlar qaytarsin
+//let son = +prompt("son kiriting");
+//if (son > 0) {console.log("musbat son");}
+//else if (son < 0) {console.log("manfiy son");}
+// else {console.log("nol");}
 //===============================================
 
 //4-masala   3-xonalik son kiritilsa uni sozlarda ifodalovchi dastur yozing
+
 //===============================================
 
 // 5-masala kabisa yilini aniqlovchi dastur yozing
